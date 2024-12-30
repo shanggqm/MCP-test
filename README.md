@@ -1,1 +1,41 @@
-IyBDbGF1ZGUgTUNQIOS9v+eUqOaMh+WNlwoKIyMg566A5LuLCkNsYXVkZSBNQ1AgKE1vZGVsIENvbnRyb2wgUHJvdG9jb2wpIOaYr+S4gOS4quW8uuWkp+eahOW3peWFt++8jOWug+WFgeiuuCBDbGF1ZGUg55u05o6l5LiO5ZCE56eN57O757uf5ZKM5pyN5Yqh6L+b6KGM5Lqk5LqS77yM5q+U5aaC5paH5Lu25ZG95Luk44CB54mI5pys5o6n5Yi257O757uf562J44CCCgojIyDkvb/nlKjmraXpqqwKCiMjIyAxLiDlronoo4UgTUNQIOacjeWKoeWZqApmnOS4pOenjeaWueW8j+WPr+S7peWuieijhSBNQ1Ag5pyN5Yqh5ZmoOgoKIyMjIyDmlrnlvI/kuIDvvJrpgJrov4cgbnBtIOaIliBkdngg5a6J6KOFCmBgYGJhc2gKbnB4IEBhbnRocm9waWMtYWkvY2xhdWRlLW1jcAoj5oiWCmR2eCBAYW50aHJvcGljLWFpL2NsYXVkZS1tY3AKYGBgCgojIyMjIOaWueW8j+S6jO+8muWFi+mYheivu+WPluebruS7k+S7mApgYGBiYXNoCjEuIOWFi+mYheivu+WPluS7k+W6k+WIsOacrOWcsAoyLiDlnKjpobnnm67nm67lvZXkuIvov5DooYzmnI3liqHlmago44CCCmBgYAoKIyMjIDIuIOmFjee9rgotIOehruS/neW3suee6+iuvuWkh+W/heimgeeahOeOr+Wig+WPmOmHj+WSjOadg+mZkAot5qC55o2u6ZyA6KaB6YWN572u6K6/6Zeu5Luk54mM5ZKM5YW25LuW5Y+C5pWwCgojIyMgMy4g5Yqf6IO95L2/55SoCk1DUCDmlK/mjIHlpJrkuKrlip/og70vvJoKLSDmlofku7bns7vnu5/mk43kvZwvvJjor7vlj5bjgIHlhpnlhaXjgIHliJvlu7rnnIHlvZXnrYlvvJkKLSBHaXQg5pON5L2c77yI5Yib5bu65bqT5bqT44CB5o+Q5Lqk5Luj56CB562J77yJCi0g572R6aG15pON5L2c77yI5a+86Iiq44CB5oiq5Zu+44CB54K55Ye7562J77yJCi0g5YW25LuW57O757uf5Lqk5LqS5Yqf6IO9CgojIyMgNC4g5rOo5oSP5LqL6aG5Ci0g56Gu5L+d5Zyo5L2/55So5YmN5LqG6Kej55u45YWz55qE5a6J5YWo5oCn6ICD6JmRCi0g6YGN5b6X5pyA5L2z5a6e6Le15ZKM5L2/55So5bu66K6u44CCCi0g5a6a5pyf5pu05paw5Yiw5pyA5paw54mI5pys5Lul6I635Y+W5paw54m55YqfCgojIyDmlK/mjIEK5aaC6ZyA5pu05aSa5biu5Yqp77yM6K+35Y+C6ICD77yaCi0gW0NsYXVkZSDmlofmoahdKGh0dHBzOi8vZG9jcy5hbnRocm9waWMuY29tLykKLSBbTUNQIEdpdEh1YiDku7vkvZVdKGh0dHBzOi8vZ2l0aHViLmNvbS9hbnRocm9waWNzL2NsYXVkZS1tY3Ap
+# Claude MCP 使用指南
+
+## 简介
+Claude MCP (Model Control Protocol) 是一个强大的工具，它允许 Claude 直接与各种系统和服务进行交互，比如文件系统、版本控制系统等。
+
+## 使用步骤
+
+### 1. 安装 MCP 服务器
+有两种方式可以安装 MCP 服务器：
+
+#### 方式一：通过 npm 或 uvx 安装
+```bash
+npx @anthropic-ai/claude-mcp
+# 或
+uvx @anthropic-ai/claude-mcp
+```
+
+#### 方式二：克隆本地代码
+1. 克隆代码到本地
+2. 在项目目录下运行服务器
+
+### 2. 配置
+- 确保已经设置好必要的环境变量和权限
+- 根据需要配置访问令牌和其他参数
+
+### 3. 功能使用
+MCP 支持多种功能：
+- 文件系统操作（读取、写入、创建目录等）
+- Git 操作（创建仓库、提交代码等）
+- 网页操作（导航、截图、点击等）
+- 其他系统交互功能
+
+### 4. 注意事项
+- 确保在使用前了解相关的安全性考虑
+- 遵循最佳实践和使用建议
+- 定期更新到最新版本以获得新特性和安全补丁
+
+## 支持
+如需更多帮助，请参考：
+- [Claude 文档](https://docs.anthropic.com/)
+- [MCP GitHub 仓库](https://github.com/anthropics/claude-mcp)
